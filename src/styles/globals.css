@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image:  url("../assets/background.jpg");
+  background-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+} 
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

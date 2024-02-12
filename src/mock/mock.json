@@ -1,0 +1,35 @@
+{
+  "home": {
+    "welcome": "Welcome to Elite Cars Dealership",
+    "description": "Offering you the best deals on luxury and performance cars.",
+    "link": "Go to catalog",
+    "history": "Founded in 2010, Elite Cars Dealership has been providing exceptional service and selection for over a decade.",
+    "mission": "Our mission is to deliver unparalleled customer service while offering the best selection of high-quality vehicles."
+  },
+  "contact": {
+    "title": "Get in Touch with Us",
+    "subTitle": "We're here to help you find your dream car. Contact us for any inquiries, requests, or feedback.",
+    "location": {
+      "title": "Our Location:",
+      "address": "1234 Dealership Drive, Car City, CA 90001"
+    },
+    "contactDetails": {
+      "phone": {
+        "title": "Phone:",
+        "number": "+1 (555) 123-4567"
+      },
+      "email": {
+        "title": "Email:",
+        "address": "contact@elitecars.com"
+      }
+    },
+    "hours": {
+      "title": "Operating Hours",
+      "schedule": {
+        "weekdays": "9:00 AM - 7:00 PM",
+        "saturday": "10:00 AM - 5:00 PM",
+        "sunday": "Closed"
+      }
+    }
+  }
+}
