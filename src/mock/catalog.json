@@ -8,6 +8,7 @@
       "model": "Challenger",
       "year": 2022,
       "price": "$28,295",
+      "image": "challenger.png",
       "description": "The 2022 Dodge Challenger epitomizes the essence of American muscle cars, offering a perfect blend of classic design and modern performance. With its robust engine options, it delivers exhilarating acceleration and power, making it a top pick for enthusiasts who value both performance and style. Its spacious cabin and retro-inspired interior provide comfort without sacrificing the nostalgic feel that makes this car a timeless classic."
     },
     {
@@ -16,7 +17,7 @@
       "model": "Mustang",
       "year": 2023,
       "price": "$27,155",
-      "image": "/images/ford-mustang.jpg",
+      "image": "mustang.jpg",
       "description": "The 2023 Ford Mustang continues to symbolize the spirit of American sports cars, featuring an unmistakable design and exhilarating performance. This latest iteration offers a range of powerful engines and advanced technology, making every drive thrilling. Its iconic silhouette paired with modern touches and interior refinements create a driving experience that's both visceral and sophisticated."
     },
     {
@@ -25,7 +26,7 @@
       "model": "Lancer Evolution",
       "year": 2021,
       "price": "$36,995",
-      "image": "/images/mitsubishi-lancer.jpg",
+      "image": "lancer.jpg",
       "description": "The 2021 Mitsubishi Lancer Evolution is a rally-inspired sedan that brings the thrill of sharp handling and turbocharged performance to the road. Renowned for its agility and speed, it delivers an exhilarating driving experience reminiscent of its rally heritage. With all-wheel drive and a focus on performance, the Lancer Evolution is a favorite among driving purists seeking a blend of power, precision, and passion."
     },
     {
@@ -34,7 +35,7 @@
       "model": "Supra",
       "year": 2022,
       "price": "$43,090",
-      "image": "/images/toyota-supra.jpg",
+      "image": "supra.jpg",
       "description": "The 2022 Toyota Supra marks the return of a legend, offering a blend of power, agility, and style that's unmatched in the sports car segment. Its sculpted body, rear-wheel drive, and finely tuned suspension make it a dream for enthusiasts and a nightmare for competitors. The Supra is designed for those who demand performance in its purest form, making every drive an unforgettable experience."
     },
     {
@@ -43,7 +44,7 @@
       "model": "Viper",
       "year": 2020,
       "price": "$91,995",
-      "image": "/images/dodge-viper.jpg",
+      "image": "viper.jpg",
       "description": "The 2020 Dodge Viper is a monumental figure in the realm of high-performance sports cars, boasting a dramatic design and a potent V10 engine under the hood. Known for its raw power and aggressive styling, the Viper offers a driving experience that's as exhilarating as it is unforgiving. It's a car for the brave, blending performance and design in a way that commands attention and respect on every road."
     },
     {
@@ -52,7 +53,7 @@
       "model": "F-150 Raptor",
       "year": 2023,
       "price": "$65,840",
-      "image": "/images/ford-f150-raptor.jpg",
+      "image": "raptor.jpg",
       "description": "The 2023 Ford F-150 Raptor is an off-road powerhouse that combines high performance with the reliability Ford is known for. With its advanced off-road capabilities and robust powertrain, the Raptor is engineered to conquer any terrain. Whether it's for work or play, the F-150 Raptor stands out as a versatile and durable pickup that's as capable as it is imposing."
     },
     {
@@ -61,17 +62,17 @@
       "model": "Outlander",
       "year": 2022,
       "price": "$25,795",
-      "image": "/images/mitsubishi-outlander.jpg",
+      "image": "outlander.jpg",
       "description": "The 2022 Mitsubishi Outlander is a family SUV that doesn't compromise on style, space, or technology. Offering a comfortable ride, advanced safety features, and a spacious interior, it's designed to meet the needs of modern families. With its sleek exterior and refined cabin, the Outlander provides a balanced blend of functionality and sophistication for everyday adventures."
     },
     {
       "id": "8",
-      "make": "Toyota",
-      "model": "Camry",
+      "make": "Chevrolet",
+      "model": "Camaro",
       "year": 2023,
-      "price": "$25,295",
-      "image": "/images/toyota-camry.jpg",
-      "description": "The 2023 Toyota Camry continues to set the standard for midsize sedans with its reliable performance, efficient operation, and comfortable ride. Renowned for its longevity and value, the Camry offers a refined interior, cutting-edge technology, and a smooth driving experience. It's the go-to choice for drivers seeking a dependable and efficient car that doesn't sacrifice comfort for performance."
+      "price": "$25,420",
+      "image": "camaro.jpg",
+      "description": "The 2023 Chevrolet Camaro stands out as a symbol of American muscle, blending iconic design with exhilarating performance. Renowned for its powerful engine options, sharp handling, and distinctive styling, the Camaro offers an engaging driving experience. It's the perfect choice for those who crave a sports car that delivers excitement on the road or track, without compromising on modern technology and comfort features."
     },
     {
       "id": "9",
@@ -79,7 +80,7 @@
       "model": "Durango",
       "year": 2022,
       "price": "$32,570",
-      "image": "/images/dodge-durango.jpg",
+      "image": "durango.jpg",
       "description": "The 2022 Dodge Durango is a muscular SUV that offers impressive power and versatility, making it ideal for families who demand performance. With its roomy interior, advanced features, and strong towing capabilities, the Durango stands out as a practical yet powerful option for those who need space and strength in equal measure."
     },
     {
@@ -88,7 +89,7 @@
       "model": "Explorer",
       "year": 2023,
       "price": "$33,100",
-      "image": "/images/ford-explorer.jpg",
+      "image": "explorer.jpg",
       "description": "The 2023 Ford Explorer is engineered for adventure, offering spacious seating, powerful performance, and the latest in technology. Its versatility and capability make it a top choice for families and explorers alike, ready to tackle both daily commutes and off-road excursions with ease. With its modern design and innovative features, the Explorer redefines what a family SUV can be."
     },
     {
@@ -97,7 +98,7 @@
       "model": "Eclipse Cross",
       "year": 2022,
       "price": "$23,395",
-      "image": "/images/mitsubishi-eclipse-cross.jpg",
+      "image": "eclipse-cross.jpg",
       "description": "The 2022 Mitsubishi Eclipse Cross combines stylish design with functional versatility, making it a standout compact SUV. Its unique silhouette and advanced features offer a fresh take on the compact SUV segment, providing an engaging driving experience along with practicality and efficiency. It's designed for those who seek style without compromising on performance or comfort."
     },
     {
@@ -106,7 +107,7 @@
       "model": "4Runner",
       "year": 2023,
       "price": "$36,765",
-      "image": "/images/toyota-4runner.jpg",
+      "image": "toyota-4runner.jpg",
       "description": "The 2023 Toyota 4Runner is built to tackle the toughest terrains, offering rugged durability and reliability. Its off-road capability, combined with a comfortable interior and advanced technology, makes it the ultimate adventure vehicle. For those who live to explore the great outdoors, the 4Runner is a trusted companion that's as ready for adventure as you are."
     }
   ]

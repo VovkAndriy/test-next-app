@@ -1,5 +1,6 @@
 import { CarProps } from "@/interfaces";
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 type TCar = {
@@ -7,17 +8,29 @@ type TCar = {
 };
 
 const CarCard = ({ car }: TCar) => {
-  const { id, make, model, year, price } = car;
+  const { id, make, model, year, price, image } = car;
   return (
-    <div className="text-light rounded bg-black/40 p-4">
-      <div className="flex  h-[200px] md:h-[250px] xl:h-350px text-white rounded-md justify-center items-center bg-white/40">
-        image loading...
-      </div>
-      <Link className="text-2xl md:text-3xl" href={`catalog/${id}`}>
-        {make} {model}
+    <div className="grid text-light rounded bg-black/40 p-4">
+      <Link
+        href={`catalog/${id}`}
+        className="flex text-white overflow-hidden rounded-md justify-center items-center bg-white/40"
+      >
+        <Image
+          alt={image}
+          src={`/cars/${image}`}
+          width={2000}
+          height={1500}
+          objectPosition="center"
+          className="aspect-[5/3] h-full object-cover"
+        />
       </Link>
-      <div className="text-xl md:text-2xl">Year: {year}</div>
-      <div className="text-xl md:text-2xl">Price: {price}</div>
+      <div className="flex-col">
+        <Link className="text-xl xl:text-3xl" href={`catalog/${id}`}>
+          {make} {model}
+        </Link>
+        <div className="text-base xl:text-2xl">Year: {year}</div>
+        <div className="text-base xl:text-2xl">Price: {price}</div>
+      </div>
     </div>
   );
 };

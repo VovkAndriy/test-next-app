@@ -9,7 +9,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="w-full h-screen">
       <Header />
-      <main className="flex justify-center pt-24 h-full">{children}</main>
+      <main className="flex justify-center pt-14">{children}</main>
     </div>
   );
 };

@@ -9,8 +9,8 @@ type THome = {
 const HomePage: React.FC<THome> = ({ home }) => {
   const { welcome, description, link, history, mission } = home;
   return (
-    <div className="flex-column  text-xl w-[75%] justify-center mobile:rounded-xl mobile:p-2 mobile:bg-black/50 md:p-6">
-      <div className="text-4xl font-light text-center text-light pt-10">
+    <div className="flex-col text-xl justify-center rounded-xl mobile:p-2 mobile:bg-black/50 md:p-6">
+      <div className="text-2xl md:text-4xl font-light text-center text-light pt-10">
         {welcome}
       </div>
       <div className="text-xl font-light text-center text-light pt-4">

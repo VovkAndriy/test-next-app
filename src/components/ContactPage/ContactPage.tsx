@@ -15,8 +15,10 @@ const ContactPage: React.FC<TContact> = ({ props }) => {
   } = props;
 
   return (
-    <div className="flex-column font-light w-[75%] rounded-xl bg-black/50 justify-center p-4 ">
-      <div className="text-4xl text-center text-light pt-10">{title}</div>
+    <div className="flex-column font-light rounded-xl bg-black/50 justify-center p-4 ">
+      <div className="text-2xl md:text-4xl text-center text-light pt-10">
+        {title}
+      </div>
       <div className="text-xl  text-center text-light pt-4">{subTitle}</div>
 
       <div className="w-[75%] text-2xl text-left text-light pt-16">

@@ -12,7 +12,6 @@ export interface ContactPageProps {
   location: {
     title: string;
     address: string;
-    mapLink: string;
   };
   contactDetails: {
     phone: {
@@ -46,5 +45,6 @@ export interface CarProps {
   model: string;
   year: number;
   price: string;
+  image: string;
   description: string;
 }
